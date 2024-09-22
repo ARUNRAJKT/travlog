@@ -8,6 +8,7 @@ import TopDestinationSection from './components/TopDestinationSection';
 import TravelPointsSection from './components/TravelPointsSection';
 import KeyFeaturesSection from './components/KeyFeaturesSection';
 import Footer from './components/Footer';
+import TravelPartners from './components/TravelPartners';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Header />
         
         <HeroSection />
+        <TravelPartners/>
         <ServicesSection />
         <TopDestinationSection />
         <TravelPointsSection />
