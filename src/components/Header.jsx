@@ -1,12 +1,12 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import MyIcon from "../assets/Icon.svg";
+import Logo from "../assets/Logo.svg";
 
 export default function Header() {
     return (
-        <header className="bg-white w-1184 mx-auto h-113 py-8 pl-8 flex justify-between items-center opacity-100 z-10">
-            <div className="flex items-center">
-                <img src={MyIcon} alt="My Icon" className="w-10 h-10 mr-2" /> {/* Set width and height */}
+        <header className="w-1184 mx-auto h-113  flex justify-between items-center opacity-100 z-10">
+            <div className="flex items-center ">
+                <img src={Logo} alt="My Icon" className="w-10 h-10 mr-2" /> 
                 <span className="text-lg font-bold text-[#191825]">Travlog</span>
             </div>
             <nav>
