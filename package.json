@@ -1,5 +1,5 @@
 {
-  "homepage":"https://arunrajkt.github.io/travlog",
+  "homepage": "https://arunrajkt.github.io/travlog",
   "name": "travlog",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,8 @@
     "react-router-dom": "^6.26.2",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -19,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
