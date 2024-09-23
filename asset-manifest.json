@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travlog/static/css/main.edc08c0c.css",
-    "main.js": "/travlog/static/js/main.ad87bb2f.js",
+    "main.css": "/travlog/static/css/main.65eab195.css",
+    "main.js": "/travlog/static/js/main.1001b1e9.js",
     "static/js/453.71b19343.chunk.js": "/travlog/static/js/453.71b19343.chunk.js",
     "static/media/background.svg": "/travlog/static/media/background.2d166bad96b163a420ea025ea919976c.svg",
     "static/media/travelPoint.svg": "/travlog/static/media/travelPoint.2e658156a69bd4e608557e4a6a358be2.svg",
@@ -40,12 +40,12 @@
     "index.html": "/travlog/index.html",
     "static/media/location.svg": "/travlog/static/media/location.37526d2e625fd918b51212a289b58657.svg",
     "static/media/playIcon.svg": "/travlog/static/media/playIcon.63aa9f708009d7da571308627197d026.svg",
-    "main.edc08c0c.css.map": "/travlog/static/css/main.edc08c0c.css.map",
-    "main.ad87bb2f.js.map": "/travlog/static/js/main.ad87bb2f.js.map",
+    "main.65eab195.css.map": "/travlog/static/css/main.65eab195.css.map",
+    "main.1001b1e9.js.map": "/travlog/static/js/main.1001b1e9.js.map",
     "453.71b19343.chunk.js.map": "/travlog/static/js/453.71b19343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edc08c0c.css",
-    "static/js/main.ad87bb2f.js"
+    "static/css/main.65eab195.css",
+    "static/js/main.1001b1e9.js"
   ]
 }
