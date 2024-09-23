@@ -1,4 +1,4 @@
-# Travlog
+# Travlog - https://arunrajkt.github.io/travlog/
 
 Welcome to the Travlog project! This web application allows users to explore top travel destinations, discover services, and get offers for their journeys.
 
