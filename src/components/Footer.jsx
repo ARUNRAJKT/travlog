@@ -6,7 +6,7 @@ import instagram from "../assets/Icons/instagram.svg";
 
 export default function Footer() {
   return (
-    <footer id="footer" className="w-[1184px] h-[434px] py-16 m-auto flex relative gap-16 opacity-100">
+    <footer id="footer" className="w-[1184px] h-[434px] py-16 m-auto flex relative gap-16 opacity-100" role="contentinfo">
       <div className="w-[560px] h-auto gap-16 flex flex-col opacity-100">
         <div className="flex flex-col items-start gap-4">
           <div className="flex items-center gap-4">
@@ -14,24 +14,24 @@ export default function Footer() {
             <span className="font-circularStd text-[24px] font-bold">Travlog</span>
           </div>
           <span className="font-inter text-left text-[16px] text-[#191825] opacity-50 mt-6">
-            Contrary to popular belief, Lorem Ipsum is not simply <br />random text. It has roots in a piece of classical Latin<br /> literature from 45 BC.
+            Contrary to popular belief, Lorem Ipsum is not simply <br /> random text. It has roots in a piece of classical Latin<br /> literature from 45 BC.
           </span>
         </div>
 
-        <div className="flex gap-8">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+        <div className="flex gap-8" aria-label="Follow us on social media">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
             <img src={facebook} alt="Facebook" className="w-[32px] h-[32px] cursor-pointer hover:opacity-70 transition-opacity duration-300" />
           </a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
             <img src={twitter} alt="Twitter" className="w-[32px] h-[32px] cursor-pointer hover:opacity-70 transition-opacity duration-300" />
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <img src={instagram} alt="Instagram" className="w-[32px] h-[32px] cursor-pointer hover:opacity-70 transition-opacity duration-300" />
           </a>
         </div>
       </div>
 
-      <div className="w-[560px] text-left h-auto gap-8 flex flex-col opacity-100 ">
+      <div className="w-[560px] text-left h-auto gap-8 flex flex-col opacity-100">
         <div className="flex gap-16">
           <div className="w-[165.33px] flex flex-col gap-8">
             <h6 className="font-circularStd text-[18px] font-bold">Company</h6>
