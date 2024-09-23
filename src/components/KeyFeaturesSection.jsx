@@ -6,7 +6,7 @@ import feature3 from "../assets/KeyFeatures/feature3.svg"; // Ensure this points
 
 export default function KeyFeaturesSection() {
   return (
-    <section className="w-[1312px] h-[997px] flex flex-row py-16 ml-32 relative justify-between">
+    <section className="w-[1312px]  h-[997px] flex flex-row py-16 ml-auto justify-between">
       <div className="flex flex-col text-left items-center gap-16 w-[549px] h-auto opacity-100">
         <div className="flex flex-col items-start gap-4 w-full h-auto">
           <span className="font-circularStd text-[23px] font-bold leading-[27.6px] text-[#F85E9F] tracking-[0.2em]">
@@ -21,7 +21,7 @@ export default function KeyFeaturesSection() {
         </div>
 
         {/* Key Feature Cards */}
-        <div className="flex flex-col gap-8 w-full">
+        <div className="flex flex-col  w-full">
           <FeatureCard title="We offer best services" description="Lorem Ipsum is not simply random text" icon={feature1} />
           <FeatureCard title="Schedule your trip" description="It has roots in a piece of classical" icon={feature2} />
           <FeatureCard title="Get discounted coupons" description="Lorem Ipsum is not simply random text" icon={feature3} />

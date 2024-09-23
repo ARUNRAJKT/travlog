@@ -14,7 +14,9 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-      },
+      },boxShadow: {
+        'custom': '0px 41px 89px 0px rgba(0, 0, 0, 0.1)', // Custom shadow
+      }
     },
   },
   plugins: [],
