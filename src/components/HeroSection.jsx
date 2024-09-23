@@ -18,6 +18,7 @@ import locationIcon from "../assets/Icons/locationButton.svg"
 export default function HeroSection() {
   return (
     <section className='flex w-[1184px] mx-auto h-[841px] py-16 gap-10'>
+
       {/* First block */}
       <div className='bg-white w-[412px] h-[577px] flex flex-col items-start p-6 '>
         <div className="flex items-center gap-2 justify-center">
@@ -40,14 +41,15 @@ export default function HeroSection() {
           </h4>
 
           <div className="w-[338px] h-[56px] flex gap-4 pt-6">
-            <button className="w-[141px] h-[49px] px-8 py-4 bg-[#5D50C6] text-[#EEEEEE] font-circular font-bold text-[14px] leading-[16.8px] rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
+            <button className="w-[141px] h-[49px] px-4 py-2 border rounded-full hover:w-[181px] hover:h-[56px] hover:bg-[#5D50C6] hover:text-[#EEEEEE] font-circular font-bold text-[14px] leading-[16.8px] shadow-lg hover:shadow-xl transition-all duration-300">
               Get Started
             </button>
-            <button className="flex items-center justify-center w-[181px] h-[56px] border border-transparent text-[#222831]  font-circular font-bold text-[14px] leading-[16.8px] rounded-full shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src={playIcon} alt="playIcon" className="w-5 h-5 mr-2" />
+            <button className="w-[141px] h-[49px] flex items-center justify-center hover:w-[181px] hover:h-[56px] border  text-[#222831] font-circular font-bold text-[14px] leading-[16.8px] rounded-full shadow-lg hover:bg-[#5D50C6] hover:text-white hover:shadow-xl transition-all duration-300">
+              <img src={playIcon} alt="Play Demo" className="w-5 h-5 mr-2" />
               Watch Demo
             </button>
           </div>
+
         </div>
       </div>
 
@@ -81,7 +83,7 @@ export default function HeroSection() {
           <img
             src={picture3}
             alt="A person using phone"
-            className="w-[272px] h-[400px] rounded-tl-[32px] rounded-tr-[0px] rounded-bl-[0px] rounded-br-[0px] "
+            className="z-0 w-[272px] h-[400px] mt-16 rounded-tl-[32px] rounded-tr-[0px] rounded-bl-[0px] rounded-br-[0px] "
           />
         </div>
 

@@ -20,9 +20,6 @@ function App() {
         <TravelPartners/>
         <ServicesSection />
         <TopDestinationSection />
-        <TravelPointsSection />
-        <KeyFeaturesSection />
-        
         <Footer />
       </div>
     </Router>

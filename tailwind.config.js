@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         customPurple: '#5D50C6',
       },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
     },
   },
   plugins: [],

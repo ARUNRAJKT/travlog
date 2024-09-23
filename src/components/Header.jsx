@@ -54,8 +54,8 @@ export default function Header() {
                 </ul>
             </nav>
             <div className="flex items-center space-x-4">
-                <button className="font-sans text-black px-8 py-4 border rounded">Login</button>
-                <button className="font-sans text-white bg-customPurple w-[115px] h-[49px] rounded-full">Sign Up</button>
+                <button className="font-sans text-black  hover:bg-[#5D50C6] hover:text-white px-8 py-4 border rounded-full">Login</button>
+                <button className="font-sans text-black  hover:bg-[#5D50C6] hover:text-white px-8 py-4 border rounded-full">Sign Up</button>
             </div>
         </header>
     );

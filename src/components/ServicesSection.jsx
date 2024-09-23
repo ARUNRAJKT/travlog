@@ -52,7 +52,7 @@ export default function ServicesSection() {
           onMouseMove={handleMouseMove}
         >
           {/* Card 1 */}
-          <div className="flex flex-col items-center w-[350px] h-[443px] p-8 rounded-l-2xl border border-l-0 snap-start">
+          <div className="flex flex-col items-center w-[350px] h-[443px] p-8 rounded-2xl border border-l-0 snap-start">
             <img src={destination} alt="Best Tour Guide" className="w-[64px] h-[64px] mb-4" />
             <div className="flex flex-col items-center gap-4 mt-4">
               <h5 className="font-circular font-bold text-[28px] leading-[33.6px] text-center">
@@ -65,7 +65,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Card 2 */}
-          <div className="flex flex-col items-center w-[350px] h-[443px] p-8 rounded-l-2xl border border-l-0 snap-start">
+          <div className="flex flex-col items-center w-[350px] h-[443px] p-8 rounded-2xl border border-l-0 snap-start">
             <img src={booking} alt="Easy Booking" className="w-[64px] h-[64px] mb-4" />
             <div className="flex flex-col items-center gap-4 mt-4">
               <h5 className="font-circular font-bold text-[28px] leading-[33.6px] text-center">
@@ -78,7 +78,7 @@ export default function ServicesSection() {
           </div>
 
           {/* Card 3 */}
-          <div className="flex flex-col items-center w-[350px] h-[443px] p-8 rounded-l-2xl border border-l-0 snap-start">
+          <div className="flex flex-col items-center w-[350px] h-[443px] p-8 rounded-2xl border border-l-0 snap-start">
             <img src={cloudy} alt="Weather Forecast" className="w-[64px] h-[64px] mb-4" />
             <div className="flex flex-col items-center gap-4 mt-4">
               <h5 className="font-circular font-bold text-[28px] leading-[33.6px] text-center">
