@@ -20,6 +20,7 @@ Make sure you have the following installed on your machine:
 
 2.Navigate into the project directory:
    cd travlog
+   
 3.Install the dependencies:
    npm install
    
@@ -48,6 +49,9 @@ Footer: Contact information and links to social media.
 Learn More
 You can learn more about the technologies used:
 
+
 React Documentation
+
 Tailwind CSS Documentation
+
 Material UI Icons
