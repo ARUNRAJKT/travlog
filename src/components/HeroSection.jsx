@@ -89,17 +89,17 @@ export default function HeroSection() {
 
         <img
           src={send}
-          className='absolute top-[286px] left-[2px] p-4 rounded-full '
+          className='absolute top-[286px] left-[2px] p-4 rounded-full animate-pump '
           alt="Send"
         />
 
         <img
           src={addIcon}
-          className='absolute top-[600px] left-[400px] p-4 rounded-full '
+          className='absolute top-[600px] left-[400px] p-4 rounded-full animate-pump'
           alt="Add"
         />
 
-        <button className='absolute bg-white rounded-full w-[166px] h-[56px] top-[440px] left-[608px] p-4 font-circular text-[14px] font-bold leading-[16.8px] text-left flex items-center'>
+        <button className='absolute bg-white rounded-full w-[166px] h-[56px] top-[440px] left-[608px] p-4 font-circular text-[14px] font-bold leading-[16.8px] text-left flex items-center animate-pump'>
           <img src={locationIcon} className='w-[24px] h-[24px] p-1' alt="" />
           Top Places
         </button>

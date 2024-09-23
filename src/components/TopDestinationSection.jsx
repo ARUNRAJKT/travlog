@@ -21,7 +21,7 @@ export default function TopDestinationSection() {
   };
 
   return (
-    <section className="w-[1184px] h-auto mx-auto py-16 gap-16">
+    <section id="topDestinations" className="w-[1184px] h-auto mx-auto py-16 gap-16">
       <div className="w-full h-[100px] flex justify-between items-center">
         <div className="flex flex-col items-start">
           <span className="font-circularStd text-[23px] text-[#F85E9F] font-bold leading-[27.6px] tracking-[0.2em]">

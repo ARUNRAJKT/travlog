@@ -1,12 +1,12 @@
 import React from 'react';
 import background from "../assets/Images/background.svg";
 import feature1 from "../assets/KeyFeatures/feature1.svg";
-import feature2 from "../assets/KeyFeatures/feature2.svg"; // Ensure this points to the correct image
-import feature3 from "../assets/KeyFeatures/feature3.svg"; // Ensure this points to the correct image
+import feature2 from "../assets/KeyFeatures/feature2.svg"; 
+import feature3 from "../assets/KeyFeatures/feature3.svg"; 
 
 export default function KeyFeaturesSection() {
   return (
-    <section className="w-[1312px]  h-[997px] flex flex-row py-16 ml-auto justify-between">
+    <section id="keyFeatures" className="w-[1312px]  h-[997px] flex flex-row py-16 ml-auto justify-between">
       <div className="flex flex-col text-left items-center gap-16 w-[549px] h-auto opacity-100">
         <div className="flex flex-col items-start gap-4 w-full h-auto">
           <span className="font-circularStd text-[23px] font-bold leading-[27.6px] text-[#F85E9F] tracking-[0.2em]">

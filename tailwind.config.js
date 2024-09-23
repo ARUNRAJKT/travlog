@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}",],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       width: {
@@ -14,11 +14,20 @@ module.exports = {
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
-      },boxShadow: {
-        'custom': '0px 41px 89px 0px rgba(0, 0, 0, 0.1)', // Custom shadow
-      }
+      },
+      boxShadow: {
+        'custom': '0px 41px 89px 0px rgba(0, 0, 0, 0.1)', 
+      },
+      animation: {
+        'pump': 'pump 3s ease-in-out infinite'
+      },
+      keyframes: {
+        pump: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.1)' },
+        },
+      },
     },
   },
   plugins: [],
 }
-

@@ -34,7 +34,7 @@ export default function Header() {
                     <li>
                         <Link
                             smooth
-                            to="#destinations"
+                            to="#topDestinations"
                             className="text-[#19182580] hover:text-[#222831]"
                             aria-label="D"
                         >
@@ -44,7 +44,7 @@ export default function Header() {
                     <li>
                         <Link
                             smooth
-                            to="#travel-points"
+                            to="#footer"
                             className="text-[#19182580] hover:text-[#222831]"
                             aria-label="Go to Travel Points"
                         >
